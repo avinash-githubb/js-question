@@ -73,8 +73,7 @@ Good luck with your interview 😊
 |49 | [Give an example of web worker](#give-an-example-of-web-worker)|
 |50 | [What are the restrictions of web workers on DOM](#what-are-the-restrictions-of-web-workers-on-dom)|
 |51 | [What is a promise](#what-is-a-promise)|
-|52 | [Why do you need a promise](#why-do-you-need-a-promise)|
-|53 | [What are the three states of promise](#what-are-the-three-states-of-promise)|
+
 |54 | [What is a callback function](#what-is-a-callback-function)|
 |55 | [Why do we need callbacks](#why-do-we-need-callbacks)|
 |56 | [What is a callback hell](#what-is-a-callback-hell)|
@@ -1340,7 +1339,7 @@ Good luck with your interview 😊
 
     **[⬆ Back to Top](#table-of-contents)**
 
-51. ### What is a promise
+51. ### What is a promise and what are states of promise
 
     A promise is an object, which represent the result of asynchronous operation which is either - resolved or rejected.
     Promises are used to handle asynchronous operations. They provide an alternative approach for callbacks by reducing the callback hell and writing the cleaner code.
