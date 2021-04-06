@@ -87,7 +87,7 @@ Good luck with your interview 😊
 |63 | [What is promise chaining](#what-is-promise-chaining)|
 |64 | [What is promise.all](#what-is-promise.all)|
 |65 | [What is the purpose of race method in promise](#what-is-the-purpose-of-race-method-in-promise)|
-|66 | [What is a strict mode in javascript](#what-is-a-strict-mode-in-javascript)|
+
 |67 | [Why do you need strict mode](#why-do-you-need-strict-mode)|
 |68 | [How do you declare strict mode](#how-do-you-declare-strict-mode)|
 |69 | [What is the purpose of double exclamation](#what-is-the-purpose-of-double-exclamation)|
@@ -1342,7 +1342,13 @@ Good luck with your interview 😊
 
 51. ### What is a promise
 
-    A promise is an object that may produce a single value some time in the future with either a resolved value or a reason that it’s not resolved(for example, network error). It will be in one of the 3 possible states: fulfilled, rejected, or pending.
+    A promise is an object, which represent the result of asynchronous operation which is either - resolved or rejected.
+    Promises are used to handle asynchronous operations. They provide an alternative approach for callbacks by reducing the callback hell and writing the cleaner code.
+
+    Promises have three states:
+    1. **Pending:** This is an initial state of the Promise before an operation begins
+    2. **Fulfilled:** This state indicates that the specified operation was completed.
+    3. **Rejected:** This state indicates that the operation did not complete. In this case an error value will be thrown.
 
     The syntax of Promise creation looks like below,
 
@@ -1372,20 +1378,9 @@ Good luck with your interview 😊
 
     **[⬆ Back to Top](#table-of-contents)**
 
-52. ### Why do you need a promise
 
-    Promises are used to handle asynchronous operations. They provide an alternative approach for callbacks by reducing the callback hell and writing the cleaner code.
 
-    **[⬆ Back to Top](#table-of-contents)**
 
-53. ### What are the three states of promise
-
-    Promises have three states:
-    1. **Pending:** This is an initial state of the Promise before an operation begins
-    2. **Fulfilled:** This state indicates that the specified operation was completed.
-    3. **Rejected:** This state indicates that the operation did not complete. In this case an error value will be thrown.
-
-    **[⬆ Back to Top](#table-of-contents)**
 
 54. ### What is a callback function
 
@@ -1599,11 +1594,7 @@ Good luck with your interview 😊
 
     **[⬆ Back to Top](#table-of-contents)**
 
-66. ### What is a strict mode in javascript
 
-    Strict Mode is a new feature in ECMAScript 5 that allows you to place a program, or a function, in a “strict” operating context. This way it prevents certain actions from being taken and throws more exceptions. The literal expression `"use strict";` instructs the browser to use the javascript code in the Strict mode.
-
-    **[⬆ Back to Top](#table-of-contents)**
 
 67. ### Why do you need strict mode
 
