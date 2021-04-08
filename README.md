@@ -85,7 +85,6 @@ Good luck with your interview 😊
 |63 | [What is promise chaining](#what-is-promise-chaining)|
 |64 | [What is promise.all](#what-is-promise.all)|
 |65 | [What is the purpose of race method in promise](#what-is-the-purpose-of-race-method-in-promise)|
-
 |67 | [Why do you need strict mode](#why-do-you-need-strict-mode)|
 |68 | [How do you declare strict mode](#how-do-you-declare-strict-mode)|
 |69 | [What is the purpose of double exclamation](#what-is-the-purpose-of-double-exclamation)|
